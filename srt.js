@@ -222,7 +222,7 @@ function confirmExtSub(){
     }else{
       if (safer == "true"){
         console.log("safer evaluation:")
-        evel(subList[state]);
+        eval(subList[state]);
       }else{
         console.log("normal evaluation:")
         eval(subList[state]);
